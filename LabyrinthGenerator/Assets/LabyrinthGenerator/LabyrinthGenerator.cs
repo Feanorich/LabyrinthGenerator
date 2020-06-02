@@ -170,7 +170,7 @@ namespace LabyrinthGenerator
         {
             var boxCollider = gameObj.GetComponent<BoxCollider>();
             if (boxCollider == null)
-                gameObj.AddComponent<BoxCollider>();
+                boxCollider = gameObj.AddComponent<BoxCollider>();
             _cellGridSizeX = boxCollider.bounds.size.x;
             _cellGridSizeZ = boxCollider.bounds.size.z;
             return true;
