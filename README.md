@@ -1,5 +1,5 @@
 # LabyrinthGenerator
-Labyrinth generator for Unity3D's editor
+Labyrinth generator for Unity3D. You can use it like editor tool or in play mode.
 
 ![Algorithm visualization](https://github.com/KotikovD/LabyrinthGenerator/blob/master/GenGif.gif "Algorithm visualization")
 
